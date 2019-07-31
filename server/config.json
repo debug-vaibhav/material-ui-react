@@ -1,0 +1,39 @@
+{
+    "env": "stage",
+    "menus": [
+        {
+            "menuId": "home-menu",
+            "menuHref": "home-menu-link",
+            "menuValue": "Home",
+            "menuItems": [
+                {
+                    "menuItemId": "home-menu-upload",
+                    "menuRoute": "/",
+                    "menuValue": "Upload"
+                },
+                {
+                    "menuItemId": "home-menu-documents",
+                    "menuRoute": "/documents",
+                    "menuValue": "Documents"
+                },
+                {
+                    "menuItemId": "home-menu-details",
+                    "menuRoute": "/details",
+                    "menuValue": "Details"
+                }
+            ]
+        },
+        {
+            "menuId": "about-menu",
+            "menuHref": "about-menu-link",
+            "menuValue": "About",
+            "menuItems": [
+                {
+                    "menuItemId": "about-menu",
+                    "menuRoute": "/about",
+                    "menuValue": "About"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "improve-order-processing",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "express": "^4.16.4",
+        "ip": "^1.1.5",
+        "minimist": "^1.2.0",
+        "request": "^2.88.0",
+        "superagent": "^5.0.5"
+    }
+}
